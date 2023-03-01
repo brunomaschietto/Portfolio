@@ -41,7 +41,7 @@ const Body = () => {
           <div>
             <Image src={profilePic} width={"300px"} height={"300px"} />
           </div>
-          <Flex flexDirection={"column"} gap={"10px"}>
+          <Flex flexDirection={"column"} gap={"10px"} id={"about"}>
             <Heading color={"black"}>Hello! 👋</Heading>
             <Heading color={"black"}>Welcome to my page!</Heading>
             <Text color={"black"}>
@@ -55,8 +55,13 @@ const Body = () => {
         </InternDiv>
       </ScaleFade>
       <Divider width={"1400px"} />
-      <Flex flexDirection={"column"} alignItems={"center"} gap={"30px"}>
-        <Heading color={"black"}>Tech Stack:</Heading>
+      <Flex
+        flexDirection={"column"}
+        alignItems={"center"}
+        gap={"30px"}
+        id={"techStack"}
+      >
+        <Heading color={"black"}>Tech Stack</Heading>
         <Flex width={"500px"} justifyContent={"space-around"}>
           <Image src={javascriptIcon} height={"50px"} />
           <Image src={html5Icon} height={"50px"} />
@@ -74,6 +79,7 @@ const Body = () => {
         alignItems={"center"}
         gap={"100px"}
         paddingLeft={"300px"}
+        id={"projects"}
       >
         <Card
           maxW={"sm"}
@@ -99,13 +105,22 @@ const Body = () => {
             </Stack>
           </CardBody>
           <CardFooter>
-            <Link
-              href="https://projeto-pokedex-bruno-maschietto.surge.sh/"
-              target="_blank"
-              color={"blue"}
-            >
-              Click here
-            </Link>
+            <Flex justifyContent={"space-around"} width={"300px"}>
+              <Link
+                href="https://projeto-pokedex-bruno-maschietto.surge.sh/"
+                target="_blank"
+                color={"blue"}
+              >
+                Website
+              </Link>
+              <Link
+                href="https://github.com/brunomaschietto/projeto-react-apis"
+                target="_blank"
+                color={"blue"}
+              >
+                Code Review
+              </Link>
+            </Flex>
           </CardFooter>
         </Card>
         <Card
@@ -132,13 +147,22 @@ const Body = () => {
             </Stack>
           </CardBody>
           <CardFooter>
-            <Link
-              href="https://frontend-test-two-bruno-maschietto.vercel.app/"
-              target="_blank"
-              color={"blue"}
-            >
-              Click here
-            </Link>
+            <Flex justifyContent={"space-around"} width={"300px"}>
+              <Link
+                href="https://frontend-test-two-bruno-maschietto.vercel.app/"
+                target="_blank"
+                color={"blue"}
+              >
+                Website
+              </Link>
+              <Link
+                href="https://github.com/brunomaschietto/frontend-test-two"
+                target="_blank"
+                color={"blue"}
+              >
+                Code Review
+              </Link>
+            </Flex>
           </CardFooter>
         </Card>
         <Card
@@ -165,13 +189,22 @@ const Body = () => {
             </Stack>
           </CardBody>
           <CardFooter>
-            <Link
-              href="https://satellite-website.surge.sh/"
-              target="_blank"
-              color={"blue"}
-            >
-              Click here
-            </Link>
+            <Flex justifyContent={"space-around"} width={"300px"}>
+              <Link
+                href="https://satellite-website.surge.sh/"
+                target="_blank"
+                color={"blue"}
+              >
+                Website
+              </Link>
+              <Link
+                href="https://github.com/brunomaschietto/projeto-frontendreact"
+                target="_blank"
+                color={"blue"}
+              >
+                Code Review
+              </Link>
+            </Flex>
           </CardFooter>
         </Card>
         <Card
@@ -199,13 +232,22 @@ const Body = () => {
             </Stack>
           </CardBody>
           <CardFooter>
-            <Link
-              href="https://documenter.getpostman.com/view/24460718/2s8ZDeTJR6"
-              target="_blank"
-              color={"blue"}
-            >
-              Click here
-            </Link>
+            <Flex justifyContent={"space-around"} width={"300px"}>
+              <Link
+                href="https://documenter.getpostman.com/view/24460718/2s8ZDeTJR6"
+                target="_blank"
+                color={"blue"}
+              >
+                Website
+              </Link>
+              <Link
+                href="https://github.com/brunomaschietto/labecommerce-backend"
+                target="_blank"
+                color={"blue"}
+              >
+                Code Review
+              </Link>
+            </Flex>
           </CardFooter>
         </Card>
         <Card
@@ -232,13 +274,22 @@ const Body = () => {
             </Stack>
           </CardBody>
           <CardFooter>
-            <Link
-              href="https://cookenu-website.surge.sh/"
-              target="_blank"
-              color={"blue"}
-            >
-              Click here
-            </Link>
+            <Flex justifyContent={"space-around"} width={"300px"}>
+              <Link
+                href="https://cookenu-website.surge.sh/"
+                target="_blank"
+                color={"blue"}
+              >
+                Website
+              </Link>
+              <Link
+                href="https://github.com/brunomaschietto/revisao-cookenu"
+                target="_blank"
+                color={"blue"}
+              >
+                Code Review
+              </Link>
+            </Flex>
           </CardFooter>
         </Card>
         <Card
@@ -266,13 +317,22 @@ const Body = () => {
             </Stack>
           </CardBody>
           <CardFooter>
-            <Link
-              href="https://documenter.getpostman.com/view/24460718/2s93CPrsHg"
-              target="_blank"
-              color={"blue"}
-            >
-              Click here
-            </Link>
+            <Flex justifyContent={'space-around'} width={'300px'}>
+              <Link
+                href="https://documenter.getpostman.com/view/24460718/2s93CPrsHg"
+                target="_blank"
+                color={"blue"}
+              >
+                Website
+              </Link>
+              <Link
+                href="https://github.com/brunomaschietto/projeto-labook-backend"
+                target="_blank"
+                color={"blue"}
+              >
+                Code Review
+              </Link>
+            </Flex>
           </CardFooter>
         </Card>
       </Flex>

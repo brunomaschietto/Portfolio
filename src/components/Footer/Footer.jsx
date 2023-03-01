@@ -8,7 +8,7 @@ import instagramIcon from "../../assets/instagramIcon.svg";
 const Footer = () => {
   return (
     <FooterStyled>
-      <Flex flexDirection={'column'} alignItems={'center'} gap={'10px'}>
+      <Flex flexDirection={'column'} alignItems={'center'} gap={'10px'} id={'contact'}>
         <Heading color={"white"} size={"lg"}>
           Let's get to know each other
         </Heading>
