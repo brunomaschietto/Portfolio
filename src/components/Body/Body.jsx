@@ -18,15 +18,19 @@ import html5Icon from "../../assets/html5Icon.svg";
 import css3Icon from "../../assets/css3Icon.svg";
 import reactIcon from "../../assets/reactIcon.svg";
 import tailwindcssIcon from "../../assets/tailwindcssIcon.svg";
-import sqliteIcon from "../../assets/sqliteIcon.svg";
+import sqlIcon from "../../assets/sqlIcon.png";
 import pythonIcon from "../../assets/pythonIcon.svg";
+import delphiIcon from '../../assets/delphiIcon.svg';
+import typescriptIcon from '../../assets/typescriptIcon.svg';
+import gitIcon from '../../assets/gitIcon.svg';
+import fastApiIcon from '../../assets/fastApiIcon.svg';
 import { InternDiv } from "./styles";
 import pokedexProject from "../../assets/pokedexProject.jpg";
 import marvelWebsite from "../../assets/marvelWebsite.jpg";
-import sateliteWebsite from "../../assets/sateliteWebsite.jpg";
-import labecommerceProject from "../../assets/labecommerceProject.jpg";
+import comicBookWebsite from "../../assets/comicBookStore.png";
+import smartFitWebsite from "../../assets/smartFit.png";
 import cookenuProject from "../../assets/cookenuProject.jpg";
-import labookProject from "../../assets/labookProject.jpg";
+import labedditProject from "../../assets/labedditProject.png";
 
 const Body = () => {
   return (
@@ -68,8 +72,12 @@ const Body = () => {
           <Image src={css3Icon} height={"50px"} />
           <Image src={reactIcon} height={"50px"} />
           <Image src={tailwindcssIcon} height={"50px"} />
-          <Image src={sqliteIcon} height={"50px"} />
+          <Image src={sqlIcon} height={"50px"} />
           <Image src={pythonIcon} height={"50px"} />
+          <Image src={delphiIcon} height={"50px"} />
+          <Image src={typescriptIcon} height={"50px"} />
+          <Image src={gitIcon} height={"50px"} />
+          <Image src={fastApiIcon} height={"50px"} />
         </Flex>
       </Flex>
       <Divider width={"1400px"} />
@@ -173,32 +181,31 @@ const Body = () => {
         >
           <CardBody>
             <Image
-              src={sateliteWebsite}
-              alt="Image from Satellite's website Project"
+              src={comicBookWebsite}
+              alt="Image from Comic Book Store"
               borderRadius="lg"
               boxShadow={"5px 5px 5px 5px grey"}
             />
             <Stack mt="6" spacing="3">
-              <Heading size="md">Satellite's E-commerce</Heading>
+              <Heading size="md">Comic Book Store</Heading>
               <Text>
-                This website was a simulation of and E-commerce, where the user
-                was able to buy the oldest satellites in history. They were very
-                rare, and eventually very expensive. he technologies used were,
-                React.js, Styled-Components, Chakra-ui.
+              I developed this website as part of a test in which participants created an e-commerce using an available API.
+              My project consisted of a Marvel comics sales platform. The technologies used were,
+              Next.js, Axios and Styled-Components.
               </Text>
             </Stack>
           </CardBody>
           <CardFooter>
             <Flex justifyContent={"space-around"} width={"300px"}>
               <Link
-                href="https://satellite-website.surge.sh/"
+                href="https://desafio-neoapp.vercel.app/"
                 target="_blank"
                 color={"blue"}
               >
                 Website
               </Link>
               <Link
-                href="https://github.com/brunomaschietto/projeto-frontendreact"
+                href="https://github.com/brunomaschietto/desafio-neoapp"
                 target="_blank"
                 color={"blue"}
               >
@@ -215,33 +222,31 @@ const Body = () => {
         >
           <CardBody>
             <Image
-              src={labecommerceProject}
-              alt="Image from Labecommerce Project"
+              src={smartFitWebsite}
+              alt="Image from SmartFit Project"
               borderRadius="lg"
               boxShadow={"5px 5px 5px 5px grey"}
               height={"180px"}
             />
             <Stack mt="6" spacing="3">
-              <Heading size="md">Labecommerce Project</Heading>
+              <Heading size="md">SmartFit Project</Heading>
               <Text>
-                Project that simulates an E-Commerce developed with Typescript
-                aimed at the Back-End. API that provides data on users, products
-                and purchases, and can also create, edit and delete new
-                resources. Tecnologies used were, TypeScript, Node.js.
+              This project was developed for studies. I created a SmartFit page from scratch, showcasing open gyms and available training times specifically designed for the pandemic period.
+              The technologies used were TypeScript, Node.js, and CSS.
               </Text>
             </Stack>
           </CardBody>
           <CardFooter>
             <Flex justifyContent={"space-around"} width={"300px"}>
               <Link
-                href="https://documenter.getpostman.com/view/24460718/2s8ZDeTJR6"
+                href="https://front-end-code-challenge-smartsite.vercel.app/"
                 target="_blank"
                 color={"blue"}
               >
                 Website
               </Link>
               <Link
-                href="https://github.com/brunomaschietto/labecommerce-backend"
+                href="https://github.com/brunomaschietto/front-end-code-challenge-smartsite"
                 target="_blank"
                 color={"blue"}
               >
@@ -300,33 +305,33 @@ const Body = () => {
         >
           <CardBody>
             <Image
-              src={labookProject}
+              src={labedditProject}
               alt="Image from Labook Project"
               borderRadius="lg"
               boxShadow={"5px 5px 5px 5px grey"}
               height={"180px"}
             />
             <Stack mt="6" spacing="3">
-              <Heading size="md">Labook Project</Heading>
+              <Heading size="md">Labeddit Project</Heading>
               <Text>
                 This API was developed as a simulation of a Social Network,
                 where you are able to create an User, Login with it, create your
                 own posts, liking and disliking some other people posts.
-                Tecnologies used were, TypeScript, Node.js
+                Tecnologies used were, React.js, Styled-Components, TypeScript, Node.js.
               </Text>
             </Stack>
           </CardBody>
           <CardFooter>
             <Flex justifyContent={'space-around'} width={'300px'}>
               <Link
-                href="https://documenter.getpostman.com/view/24460718/2s93CPrsHg"
+                href="https://labeddit-front-end-three.vercel.app/"
                 target="_blank"
                 color={"blue"}
               >
                 Website
               </Link>
               <Link
-                href="https://github.com/brunomaschietto/projeto-labook-backend"
+                href="https://github.com/brunomaschietto/Labeddit-FrontEnd"
                 target="_blank"
                 color={"blue"}
               >
